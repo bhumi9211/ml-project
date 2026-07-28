@@ -123,11 +123,11 @@ class DataTransformation:
         except Exception as e:
             raise CustomException(e,sys)
 
-if __name__ == "__main__":
+# if __name__ == "__main__":
 
-    obj = DataTransformation()
+#     obj = DataTransformation()
 
-    obj.initiate_data_transformation(
-        train_path="artifacts/train.csv",
-        test_path="artifacts/test.csv"
-    )
+#     obj.initiate_data_transformation(
+#         train_path="artifacts/train.csv",
+#         test_path="artifacts/test.csv"
+#     )
